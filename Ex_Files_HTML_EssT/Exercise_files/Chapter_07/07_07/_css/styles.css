@@ -1,5 +1,9 @@
 html, body {
 	margin: 0;
+	background-color: #639;
+	/* "beccapurple"*/ 
+	
+
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
@@ -15,6 +19,8 @@ body {
 	padding: 2.5% 2.5% 0;
 	background: white;
 	line-height: 1.8;
+	font:100% Verdana, Geneva, sans-serif;
+
 }
 h1 {
 	font: 1.6em Verdana, Geneva, sans-serif;
@@ -103,7 +109,10 @@ blockquote {
 }
 .flowRight {
 	margin-left: 10px;
+	float:right;
 }
 .flowLeft {
 	margin-right: 10px;
+	float:left;
 }
+
