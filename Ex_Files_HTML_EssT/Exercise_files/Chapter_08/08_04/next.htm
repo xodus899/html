@@ -110,10 +110,18 @@
 </footer>
 <script type="text/javascript">
 //tabbed panels
+//global variables set to hold all links and panel elements
+let tabLinks;
+let tabPanels;
+
 
 window.onload=function() {
 	//set initial panel state
 	//listen for clicks on tabs
+  tabLinks = 
+  document.getElementById("tabs").getElementsByTagName("li");
+  document.getElementById("containers").getElementsByTagName("div");
+
 }
 
 function displayPanel() {
